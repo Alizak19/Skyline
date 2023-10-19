@@ -14,10 +14,12 @@ body {
   height: 100%;
 }
 /*Center the parts of your building by turning the .bb1 element into a flexbox parent. Use the flex-direction and align-items properties to center the children.*/
+/*Variable declarations begin with two dashes (-) and are given a name and a value */
 .bb1 {
   width: 10%;
   height: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  --building-color1: #999;
 }
