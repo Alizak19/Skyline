@@ -1,1 +1,11 @@
-
+* {
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+/*  Make your body fill the whole viewport by giving it a height of 100vh. 
+Set the overflow property to hidden to hide any scroll bars that appear when something extends past the viewport. */
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
